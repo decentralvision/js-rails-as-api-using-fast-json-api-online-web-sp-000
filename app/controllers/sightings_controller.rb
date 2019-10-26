@@ -8,6 +8,3 @@ class SightingsController < ApplicationController
     render json: SightingSerializer.new(sightings)
   end
 end
-
-
-
