@@ -4,9 +4,9 @@ class SightingsController < ApplicationController
     render json: SightingSerializer.new(@sighting)
   end
   def index
-  sightings = Sighting.all
-  render json: SightingSerializer.new(sightings)
-end
+    sightings = Sighting.all
+    render json: SightingSerializer.new(sightings)
+  end
 end
 
 
